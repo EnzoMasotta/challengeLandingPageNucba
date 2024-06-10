@@ -42,7 +42,7 @@ ul li a{
   justify-content: space-between;
   align-items: center;
   padding: 0 12%;
-  margin-top: 100px;
+  margin-top: 80px;
 }
 
 .nosotros{
@@ -64,20 +64,36 @@ ul li a{
 }
 
 .nosotros button:first-child{
-  padding: 15px 23px;
+  cursor: pointer;
+  padding: 12px 20px;
   background-color: #454848;
+  border: 3px solid transparent;
   color: white;
   border-radius: 50px;
-  border: none;
+  transition: all .3s ease-in;
+}
+.nosotros button:first-child:hover{
+  background-color: white;
+  color: #454848;
+  border: 3px solid #454848;
+  transition: all .3s ease-in;
 }
 
 .nosotros button:last-child{
+  cursor: pointer;
   padding: 12px 20px;
   background-color: white;
-  color: black;
+  color: #454848;
   margin-left: 20px;
   border: 3px solid #454848;
   border-radius: 50px;
+  transition: all .3s ease-in;
+}
+.nosotros button:last-child:hover{
+  background-color: #454848;
+  color: white;
+  border: 3px solid transparent;
+  transition: all .3s ease-in;
 }
 
 .imagenHero{
@@ -86,8 +102,14 @@ ul li a{
 }
 
 .aboutus{
-  margin-top: 100px;
-  padding: 0 12%;
+  margin-top: 80px;
+  padding: 0 30%;
+
+}
+
+.aboutus p{
+  color: #454848;
+  margin-top: 15px;
 }
 
 
