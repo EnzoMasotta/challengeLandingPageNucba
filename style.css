@@ -64,11 +64,11 @@ ul li a{
 }
 
 .nosotros button:first-child{
-  padding: 12px 20px;
+  padding: 15px 23px;
   background-color: #454848;
   color: white;
   border-radius: 50px;
-  border: 3px solid #454848;
+  border: none;
 }
 
 .nosotros button:last-child{
@@ -83,6 +83,11 @@ ul li a{
 .imagenHero{
   width: 500px;
   height: 500px;
+}
+
+.aboutus{
+  margin-top: 100px;
+  padding: 0 12%;
 }
 
 
