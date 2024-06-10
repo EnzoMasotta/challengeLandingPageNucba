@@ -18,13 +18,12 @@ header{
   padding: 0 10%;
 }
 
-picture{
-  height: 100px;
+.logo{
+  height: 150px;
 }
-
-.mercadoDelBusca{
-  width: 100px;
-  height: 100px;
+.sottatour{
+  width: 150px;
+  height: 150px;
 }
 
 ul{
@@ -35,6 +34,55 @@ ul{
 
 ul li a{
   font-size: 1rem;
-  color: rgb(71, 71, 134);  
+  color: #454848;  
 }
+
+.hero{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 12%;
+  margin-top: 100px;
+}
+
+.nosotros{
+  max-width: 500px;
+}
+
+.slogan{
+  font-size: 3rem;
+  color: #042d62;
+}
+
+.nosotros p{
+  margin-top: 40px;
+  color: #454848;
+}
+
+.nosotros form{
+  margin-top: 40px;
+}
+
+.nosotros button:first-child{
+  padding: 12px 20px;
+  background-color: #454848;
+  color: white;
+  border-radius: 50px;
+  border: 3px solid #454848;
+}
+
+.nosotros button:last-child{
+  padding: 12px 20px;
+  background-color: white;
+  color: black;
+  margin-left: 20px;
+  border: 3px solid #454848;
+  border-radius: 50px;
+}
+
+.imagenHero{
+  width: 500px;
+  height: 500px;
+}
+
 
