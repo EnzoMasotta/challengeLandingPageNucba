@@ -9,17 +9,21 @@
   font-family: "Inter", sans-serif;
 }
 
+body{
+  overflow-x: hidden;
+}
+
 header{
   display: flex;
   justify-content: space-between;
   align-items: center;
   width: 100vw;
-  height: 100px;
+  height: 80px;
   padding: 0 10%;
 }
 
 .logo{
-  height: 150px;
+  height: 140px;
 }
 .sottatour{
   width: 150px;
@@ -41,8 +45,8 @@ ul li a{
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0 12%;
-  margin-top: 80px;
+  padding: 80px 12%;
+  background-color: #042d62;
 }
 
 .nosotros{
@@ -51,12 +55,12 @@ ul li a{
 
 .slogan{
   font-size: 3rem;
-  color: #042d62;
+  color: white;
 }
 
 .nosotros p{
   margin-top: 40px;
-  color: #454848;
+  color: white;
 }
 
 .nosotros form{
@@ -66,32 +70,32 @@ ul li a{
 .nosotros button:first-child{
   cursor: pointer;
   padding: 12px 20px;
-  background-color: #454848;
+  background-color: #f5f5dc;
   border: 3px solid transparent;
-  color: white;
+  color: black;
   border-radius: 50px;
   transition: all .3s ease-in;
 }
 .nosotros button:first-child:hover{
-  background-color: white;
-  color: #454848;
-  border: 3px solid #454848;
+  background-color: #042d62;
+  color: white;
+  border: 3px solid #f5f5dc;
   transition: all .3s ease-in;
 }
 
 .nosotros button:last-child{
   cursor: pointer;
   padding: 12px 20px;
-  background-color: white;
-  color: #454848;
+  background-color: #042d62;
+  color: white;
   margin-left: 20px;
-  border: 3px solid #454848;
+  border: 3px solid #f5f5dc;
   border-radius: 50px;
   transition: all .3s ease-in;
 }
 .nosotros button:last-child:hover{
-  background-color: #454848;
-  color: white;
+  background-color: #f5f5dc;
+  color: black;
   border: 3px solid transparent;
   transition: all .3s ease-in;
 }
@@ -104,7 +108,6 @@ ul li a{
 .aboutus{
   margin-top: 80px;
   padding: 0 30%;
-
 }
 
 .aboutus p{
