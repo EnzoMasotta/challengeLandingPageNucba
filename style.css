@@ -107,6 +107,10 @@ ul li a{
 
 .aboutus{
   margin-top: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
   padding: 0 30%;
 }
 
@@ -115,4 +119,86 @@ ul li a{
   margin-top: 15px;
 }
 
+.beneficios{
+  margin-top: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.beneficios h1{
+  font-size: 3rem;
+  color: #042d62;
+}
+
+.beneficios p{
+  margin-top: 40px;
+  color: #454848;
+}
+
+.cards{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.card{
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+  width: 400px;
+  margin: 80px 0;
+  padding: 20px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.10);
+  border-radius: 5px;
+  justify-content: center;
+  align-items: center;
+}
+
+.card i{
+  font-size: 3rem;
+  color: #042d62;
+}
+
+.card h3{
+  margin-top: 30px;
+  padding: 0 10%;
+  text-align: center;
+}
+
+.card p{
+  color: #454848;
+  margin-top: 20px;
+  text-align: center;
+}
+
+footer{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 10%;
+  background-color: #042d62;
+  color: #ffffff;
+}
+
+footer img{
+  width: 500px;
+  height: 500px;
+}
+
+footer .contacto{
+  display: flex;
+  margin-top: 50px;
+  gap: 50px;
+
+}
+
+.datos{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 20px;
+}
 
