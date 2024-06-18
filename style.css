@@ -172,6 +172,7 @@ ul li a{
   color: #454848;
   margin-top: 20px;
   text-align: center;
+  font-size: 1rem;
 }
 
 footer{
@@ -202,3 +203,16 @@ footer .contacto{
   margin-top: 20px;
 }
 
+.socialmedia{
+  margin-top: 50px;
+  font-size: 1.5rem;
+}
+
+.copyright{
+  background-color: #042d62;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  padding: 30px 0;
+  font-size: .8rem;
+}
