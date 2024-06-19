@@ -104,6 +104,7 @@ ul li a{
   justify-content: center;
   flex-direction: column;
   padding: 0 30%;
+  margin: 0 auto;
 }
 
 .aboutus p{
@@ -232,6 +233,10 @@ footer .contacto{
     margin: 70px;
   }
 
+  .footer{
+    padding-top: 30px;
+  }
+
 }
 
 @media (max-width:900px){
@@ -263,6 +268,14 @@ footer .contacto{
     font-size: .8rem;
   }
 
+  .beneficios h1{
+    font-size: 2rem;
+  }
+
+  .beneficios p{
+    font-size: .8rem;
+  }
+
   .imagenFooter{
     width: 430px;
     height: 430px;
@@ -276,6 +289,23 @@ footer .contacto{
   header{
     height: 60px;
   }
+
+  .footer p{
+    font-size: .8rem;
+  }
+
+  .footer h2{
+    font-size: 1.2rem;
+  }
+
+  .footer h4{
+    font-size: .8rem;
+  }
+
+  .footer i{
+    font-size: 1rem;
+  }
+
 }
 
 @media (max-width:570px){
@@ -283,6 +313,10 @@ footer .contacto{
   .sottatour{
     width: 90px;
     height: 90px;
+  }
+
+  header{
+    height: 50px;
   }
 
   .hero{
@@ -307,16 +341,109 @@ footer .contacto{
     width: 250px;
     height: 250px;
   }
+
+  .aboutus{
+    padding: 0 15%;
+  }
+
+  .aboutus p{
+    font-size: .6rem;
+  }
+
+  .beneficios h1{
+    font-size: 1.5rem;
+  }
+
+  .beneficios p{
+    font-size: .6rem;
+  }
+
+  .card h3{
+    font-size: 1rem;
+  }
+
+  .card p{
+    font-size: .8rem;
+  }
+
+  .card i{
+    font-size: 2rem;
+  }
+
+  .card{
+    width: 600px;
+    height: 350px;
+    padding: 20px;
+  }
   
   .imagenFooter{
     width: 250px;
     height: 250px;
   
   }
+
+  .copyright p{
+    font-size: .6rem;
+  }
 }
 
-@media (max-width:400px){
+@media (max-width:320px){
+  .imagenHero{
+    width: 150px;
+    height: 150px;
+  }
 
+  .imagenFooter{
+    width: 150px;
+    height: 150px;
+  }
 
+  .slogan{
+    font-size: 1rem;
+  }
+
+  .hero p{
+    font-size: .4rem;
+  }
+
+  .aboutus p{
+    font-size: .4rem;
+  }
+
+  .beneficios h1{
+    font-size: 1rem;
+  }
+
+  .beneficios p{
+    font-size: .4rem;
+  }
+
+  .card p{
+    font-size: .4rem;
+  }
+
+  .card h3{
+    font-size: .8rem;
+  }
+
+  .card i{
+    font-size: 1.5rem;
+  }
+
+  .footer p{
+    font-size: .4rem;
+  }
+
+  .footer h2{
+    font-size: 1rem;
+  }
+
+  .footer h4{
+    font-size: .5rem;
+  }
+
+  .footer i{
+    font-size: .8rem;
+  }
 }
 
