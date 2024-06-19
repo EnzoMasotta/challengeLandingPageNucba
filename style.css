@@ -15,10 +15,9 @@ header{
   justify-content: space-between;
   align-items: center;
   height: 80px;
+  padding: 0 10%;
 }
-.logo{
-  height: 140px;
-}
+
 .sottatour{
   width: 150px;
   height: 150px;
@@ -39,7 +38,7 @@ ul li a{
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 80px 0;
+  padding: 80px 10%;
   background-color: #042d62;
 }
 
@@ -53,6 +52,7 @@ ul li a{
 .nosotros p{
   margin-top: 40px;
   color: white;
+
 }
 
 .nosotros form{
@@ -103,7 +103,7 @@ ul li a{
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  padding: 0;
+  padding: 0 30%;
 }
 
 .aboutus p{
@@ -140,8 +140,9 @@ ul li a{
   display: flex;
   flex-direction: column;
   background-color: #ffffff;
-  width: 400px;
-  margin: 80px 0;
+  width: 330px;
+  height: 330px;
+  margin: 70px 10px;
   padding: 20px;
   box-shadow: 0 0 20px rgba(0,0,0,0.10);
   border-radius: 5px;
@@ -172,6 +173,7 @@ footer{
   align-items: center;
   background-color: #042d62;
   color: #ffffff;
+  padding: 0 10%;
 }
 
 footer img{
@@ -207,28 +209,114 @@ footer .contacto{
   font-size: .8rem;
 }
 
-@media (max-width:1000px){
-  
-  body{
-    max-width:100% ;
-  }  
 
+
+@media (max-width:1100px){
   .hero{
-    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
   }
 
   footer{
-    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
   }
-  
-  img{
+
+  .card{
+    margin: 10px;
+  }
+
+  .cards{
+    margin: 70px;
+  }
+
+}
+
+@media (max-width:900px){
+ 
+  ul{
     display: none;
   }
 
-  html{
-    font-size: 55%;
+  .slogan{
+    font-size: 2rem;
+  }
+
+  .hero p{
+    font-size: .8rem;
+
+  }
+
+  .nosotros button{
+    font-size: 10px;
+    font-weight: 500;
+  }
+
+  .imagenHero{
+    width: 430px;
+    height: 430px;
+  }
+
+  .aboutus p{
+    font-size: .8rem;
+  }
+
+  .imagenFooter{
+    width: 430px;
+    height: 430px;
+  }
+
+  .sottatour{
+    width: 120px;
+    height: 120px;
+  }
+
+  header{
+    height: 60px;
+  }
+}
+
+@media (max-width:570px){
+  
+  .sottatour{
+    width: 90px;
+    height: 90px;
+  }
+
+  .hero{
+    padding: 40px 10%;
+  
   }
   
+  .slogan{
+    font-size: 1.5rem;
+  }
+
+  .hero p{
+    font-size: .6rem;
+    width: 70%;
+  }
+
+  .nosotros button{
+    display: none;
+  }
   
+  .imagenHero{
+    width: 250px;
+    height: 250px;
+  }
+  
+  .imagenFooter{
+    width: 250px;
+    height: 250px;
+  
+  }
+}
+
+@media (max-width:400px){
+
+
 }
 
